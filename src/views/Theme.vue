@@ -8,7 +8,7 @@
 			<h3>h3 Heading</h3>
 		</hgroup>
 
-		<p>Lorem ipsum dolor sit <b>amet</b> consectetur adipisicing elit. 
+		<p>Lorem ipsum dolor sit <span class="hilight">amet</span> consectetur adipisicing elit. 
 		reiciendis velit?</p>
 
 		<ol>

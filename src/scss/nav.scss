@@ -1,0 +1,11 @@
+//Nav specific css
+.site_nav {
+	padding: 30px;
+	a {
+		font-weight: bold;
+		color: $charcoal;
+		&.router-link-exact-active {
+			color: $lavendar;
+		}
+	}
+}
