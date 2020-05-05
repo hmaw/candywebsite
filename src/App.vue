@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <nav id="nav" class="site_nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-	  <router-link to="/contact">Contact</router-link> |
-	  <router-link to="/theme">Theme</router-link> 
-    </nav>
-    <router-view/>
+	<site-header/>
+	<router-view/>
 	<footer class="site_footer">Footer</footer>
   </div>
 </template>
 
+<script>
+	import SiteHeader from '@/components/SiteHeader.vue'
+	export default {
+		name: "App",
+		components: {
+			SiteHeader
+		}
+	}
+</script>
+
 <style lang="scss">
-@import '/scss/main.scss';
+	@import '/scss/main.scss';
 
 </style>
