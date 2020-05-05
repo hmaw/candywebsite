@@ -20,12 +20,4 @@
 </script>
 
 <style lang="scss">
-.site_header{
-	// box-sizing: border-box;
-}
-.logo_container{
-	padding: 10px;
-	text-align: center;
-	background-color:  lightgray;
-}
 </style>

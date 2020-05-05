@@ -1,5 +1,5 @@
 <template>
-	<div class="theme">
+	<div class="theme page">
 		<h1>This is the Theme page</h1>
 
 		<hgroup>
