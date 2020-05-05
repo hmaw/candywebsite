@@ -6,8 +6,8 @@
 	  <router-link to="/contact">Contact</router-link> |
 	  <router-link to="/theme">Theme</router-link> 
     </nav>
-	
     <router-view/>
+	<footer class="site_footer">Footer</footer>
   </div>
 </template>
 
