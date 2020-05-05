@@ -4,6 +4,16 @@
 @import 'footer.scss';
 @import 'site_header.scss';
 
+body{
+	margin: 0;
+}
 .hilight {
 	background-color: $blush;
+}
+@media only screen and (max-width: 720px) {
+	body {
+		min-width: 300px;
+		width: 100%;
+		background-color: orange;
+	}
 }
