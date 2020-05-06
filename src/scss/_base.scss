@@ -13,6 +13,10 @@ body{
 		min-width: 300px;
 		width: 100%;
 	}
+	blockquote{
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 h1 {
@@ -26,16 +30,15 @@ h3 {
 	font-size: 20px;
 }
 blockquote{
-	background-color:peachpuff;
-	padding: 50px 100px;
+	padding: 1em 4em;
 	position: relative;
 	p {
 		display: block;
 	}
 	&::before {
 		position: absolute;
-		top: 32px;
-		left: 63px;
+		top: 0px;
+		left: 10px;
 		content: '“';
 		font-size: 80px;
 		color: orange;
