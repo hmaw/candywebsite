@@ -1,7 +1,9 @@
 <template>
   <div id="app">
 	<site-header/>
-	<router-view/>
+	<main>
+		<router-view/>
+	</main>
 	<footer class="site_footer">Footer</footer>
   </div>
 </template>
