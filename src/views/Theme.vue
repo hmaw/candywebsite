@@ -25,11 +25,8 @@
 
 		<blockquote>
 			<p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudantium Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudsequi suscipit iure voluptate fugit molestiae nam quod accusantium quasi iste, architecto fugiat numquam delectus quibusdam ipsa blanditiis nostrum excepturi? </p>
-			<h4 class='cite name'>&#8212 magazine Name</h4>
-			<h4 class='cite title'> &#8212 firstName lastName</h4>
+			<cite class='cite-pub'>&#8212 magazine Name <span class="cite-name">firstName lastName</span></cite>
 		</blockquote>
-		<p>test &ldquo; and &rdquo;</p>
-
 		<div>
 			<button>Button 1</button>
 			<button>Button 2</button>

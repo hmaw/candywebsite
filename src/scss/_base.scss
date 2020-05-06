@@ -25,20 +25,23 @@ h2 {
 h3 {
 	font-size: 20px;
 }
-blockquote p{
-	display: block;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-blockquote p::before {
-	content: '“';
-	font-size: 80px;
-	color: orange;
+blockquote{
+	background-color:peachpuff;
+	padding: 50px 100px;
+	position: relative;
+	p {
+		display: block;
+	}
+	&::before {
+		position: absolute;
+		top: 32px;
+		left: 63px;
+		content: '“';
+		font-size: 80px;
+		color: orange;
+		font-family: serif;
+	}
 }
 
-blockquote p::after {
-	content: '”';
-	font-size: 80px;
-	color: orange;
-}
+
 
