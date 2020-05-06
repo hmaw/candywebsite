@@ -28,11 +28,7 @@
 			<h4 class='cite name'>&#8212 magazine Name</h4>
 			<h4 class='cite title'> &#8212 firstName lastName</h4>
 		</blockquote>
-		<blockquote>
-			<p class="quotation"> 
-  			No doubt one may quote history to support any cause, as the devil quotes scripture.</p>
-			<h4>— Learned Hand</h4>
-		</blockquote>
+		<p>test &ldquo; and &rdquo;</p>
 
 		<div>
 			<button>Button 1</button>
