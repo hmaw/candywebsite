@@ -24,8 +24,14 @@
 		</ul>
 
 		<blockquote>
-			<p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudantium sequi suscipit iure voluptate fugit molestiae nam quod accusantium quasi iste, architecto fugiat numquam delectus quibusdam ipsa blanditiis nostrum excepturi? </p>
-			<p class='cite'>mag firstName lastName on date date</p>
+			<p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudantium Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudsequi suscipit iure voluptate fugit molestiae nam quod accusantium quasi iste, architecto fugiat numquam delectus quibusdam ipsa blanditiis nostrum excepturi? </p>
+			<h4 class='cite name'>&#8212 magazine Name</h4>
+			<h4 class='cite title'> &#8212 firstName lastName</h4>
+		</blockquote>
+		<blockquote>
+			<p class="quotation"> 
+  			No doubt one may quote history to support any cause, as the devil quotes scripture.</p>
+			<h4>— Learned Hand</h4>
 		</blockquote>
 
 		<div>
