@@ -25,8 +25,9 @@
 
 		<blockquote>
 			<p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudantium Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudsequi suscipit iure voluptate fugit molestiae nam quod accusantium quasi iste, architecto fugiat numquam delectus quibusdam ipsa blanditiis nostrum excepturi? </p>
-			<cite class='cite-pub'>&#8212 magazine Name <span class="cite-name">firstName lastName</span></cite>
+			<cite class='cite-name'>firstName lastName<span class="cite-title">Title Name</span></cite>
 		</blockquote>
+
 		<div>
 			<button>Button 1</button>
 			<button>Button 2</button>
