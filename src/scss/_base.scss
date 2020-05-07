@@ -29,6 +29,9 @@ h2 {
 h3 {
 	font-size: 20px;
 }
+a{
+	text-decoration-color:#e6a62c;
+}
 blockquote{
 	padding: 1em 4em;
 	position: relative;
@@ -56,4 +59,17 @@ cite{
 	}
 }
 
-
+li{
+	line-height: 1.5em;
+}
+ul li {
+	list-style-type: none;
+	position: relative;    /* needed for setting position to absolute in the li::before. */
+}
+li::before {
+	content: '●';
+	color: $purple;
+	position: absolute;
+	left: -1.0em;          /* Adjust this location */
+	font-size: 1.0em;      /* Adjust this size. */
+}

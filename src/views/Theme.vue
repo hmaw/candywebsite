@@ -11,17 +11,17 @@
 		<p>Lorem ipsum dolor sit <span class="hilight">amet</span> consectetur adipisicing elit. 
 		reiciendis velit?</p>
 
+		<ul>
+			<li>Lorem ipsum dolor sit1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, et. Deserunt dicta magni nobis quod repudiandae illum, maxime vel consequuntur! Atque quae incidunt sit repellat quisquam sint modi odit tenetur! </li>
+			<li>Lorem ipsum dolor sit2</li>
+			<li>Lorem ipsum dolor sit3</li>
+		</ul>
+
 		<ol>
 			<li>Lorem ipsum dolor sitA</li>
 			<li>Lorem ipsum dolor sitB</li>
 			<li>Lorem ipsum dolor sitC</li>
 		</ol>
-
-		<ul>
-			<li>Lorem ipsum dolor sit1</li>
-			<li>Lorem ipsum dolor sit2</li>
-			<li>Lorem ipsum dolor sit3</li>
-		</ul>
 
 		<blockquote>
 			<p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudantium Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudLorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi laudsequi suscipit iure voluptate fugit molestiae nam quod accusantium quasi iste, architecto fugiat numquam delectus quibusdam ipsa blanditiis nostrum excepturi? </p>
