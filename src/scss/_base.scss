@@ -38,7 +38,7 @@ blockquote{
 	p {
 		display: block;
 	}
-	&::before {
+	&::before { //Quote marks container
 		position: absolute;
 		top: 0px;
 		left: 10px;
@@ -48,7 +48,7 @@ blockquote{
 		font-family: serif;
 	}
 }
-cite{
+cite{  //quote marks to the left
 	margin-left: 50%;
 	position: relative;
 	&::before {
@@ -60,16 +60,17 @@ cite{
 }
 
 li{
-	line-height: 1.5em;
+	line-height: 1.6em;
+	margin: 0.6em;
 }
-ul li {
+ul li {  //Bullet points container
 	list-style-type: none;
 	position: relative;    /* needed for setting position to absolute in the li::before. */
 }
-li::before {
+li::before { //Bullet points
 	content: '●';
 	color: $purple;
 	position: absolute;
-	left: -1.0em;          /* Adjust this location */
-	font-size: 1.0em;      /* Adjust this size. */
+	left: -1.0em;          /* Adjust location bullet */
+	font-size: 1.6em;      /* Adjust size of bullet */
 }
