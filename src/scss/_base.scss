@@ -30,8 +30,12 @@ h3 {
 	font-size: 20px;
 }
 a{
-	text-decoration-color:#e6a62c;
+	text-decoration-color: $orange;
+	&:hover{
+		background-color: $orange;
+	}	
 }
+
 blockquote{
 	padding: 1em 4em;
 	position: relative;
