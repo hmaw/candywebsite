@@ -37,12 +37,12 @@ p a {
 	display: inline-block;
 	&:after{
 		position: absolute;
+		z-index: -1;
 		bottom: 0px;
 		left: 0px;
-		content:' ';
 		width: 100%;
 		border-bottom: 2px solid $orange;
-		z-index: -1;
+		content:' ';
 		transition: all 1s;
 	}
 	&:hover{
@@ -78,19 +78,45 @@ cite{  //quote marks to the left
 		content:'\2014'
 	}
 }
+ul {
+	li {
+		position: relative;    /* needed for setting position to absolute in the li::before. */
+		margin: 0.6em;
+		line-height: 1.6em;
+		list-style-type: none;
+		&::before { //Bullet points
+			position: absolute;
+			left: -1.0em;          /* Adjust location bullet */
+			color: $purple;
+			font-size: 1.6em;      /* Adjust size of bullet */
+			content: '●';
+		}
+	}
+}
 
-li{
-	line-height: 1.6em;
-	margin: 0.6em;
+ol {
+	counter-reset: li;
+	li { //number points container
+		margin: 0.6em;
+		line-height: 1.4em;
+		position: relative;    /* needed for setting position to absolute in the li::before. */
+		list-style-type: none;
+		counter-increment: li;
+		&::before{
+			color: $purple;
+			position: absolute;
+			display: inline-block; 
+			font-size: 2em;      /* Adjust size of number */
+			font-weight: bold;
+			width: 1em; 
+			margin-left: -1.5em;
+			margin-right: 0.5em; 
+			text-align: right; 
+			direction: rtl;
+			content: counter(li);
+		}
+	}
 }
-ul li {  //Bullet points container
-	list-style-type: none;
-	position: relative;    /* needed for setting position to absolute in the li::before. */
-}
-li::before { //Bullet points
-	content: '●';
-	color: $purple;
-	position: absolute;
-	left: -1.0em;          /* Adjust location bullet */
-	font-size: 1.6em;      /* Adjust size of bullet */
-}
+
+
+
