@@ -29,11 +29,27 @@ h2 {
 h3 {
 	font-size: 20px;
 }
-a{
-	text-decoration-color: $orange;
+a {
+	text-decoration: none;
+}
+p a {
+	position: relative;
+	display: inline-block;
+	&:after{
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		content:' ';
+		width: 100%;
+		border-bottom: 2px solid $orange;
+		z-index: -1;
+		transition: all 1s;
+	}
 	&:hover{
-		background-color: $orange;
-	}	
+		&::after{
+			border-bottom-width: 16px;
+		}
+	}
 }
 
 blockquote{
