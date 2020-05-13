@@ -79,6 +79,7 @@ cite{  //quote marks to the left
 	}
 }
 ul {
+	margin-bottom: 40px;
 	li {
 		position: relative;    /* needed for setting position to absolute in the li::before. */
 		margin: 0.6em;
@@ -96,6 +97,7 @@ ul {
 
 ol {
 	counter-reset: li;
+	margin-bottom: 40px;
 	li { //number points container
 		margin: 0.6em;
 		line-height: 1.4em;
@@ -109,8 +111,8 @@ ol {
 			font-size: 2em;      /* Adjust size of number */
 			font-weight: bold;
 			width: 1em; 
-			margin-left: -1.5em;
-			margin-right: 0.5em; 
+			margin-left: -1.25em;
+			// margin-right: 0.5em; 
 			text-align: right; 
 			direction: rtl;
 			content: counter(li);
