@@ -1,7 +1,10 @@
 <template>
-	<div class="theme page">
+	<article class="theme page">
 		<h1>This is the Theme page</h1>
-
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aperiam nam, maiores sunt debitis eos corrupti aliquid dignissimos omnis, nihil totam iure fuga amet voluptatum quae porro sapiente earum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, omnis. Ut sit deserunt quasi quis distinctio suscipit doloremque tenetur voluptate labore. Reiciendis nostrum et totam aliquid magnam id odit dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit eos consectetur, facere quas est aliquid vero labore dolores hic ad aliquam explicabo cupiditate amet earum quidem eius minus sequi!</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aperiam nam, maiores sunt debitis eos corrupti aliquid dignissimos omnis, nihil totam iure fuga amet voluptatum quae porro sapiente earum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, omnis. Ut sit deserunt quasi quis distinctio suscipit doloremque tenetur voluptate labore. Reiciendis nostrum et totam aliquid magnam id odit dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit eos consectetur, facere quas est aliquid vero labore dolores hic ad aliquam explicabo cupiditate amet earum quidem eius minus sequi!</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aperiam nam, maiores sunt debitis eos corrupti aliquid dignissimos omnis, nihil totam iure fuga amet voluptatum quae porro sapiente earum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, omnis. Ut sit deserunt quasi quis distinctio suscipit doloremque tenetur voluptate labore. Reiciendis nostrum et totam aliquid magnam id odit dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit eos consectetur, facere quas est aliquid vero labore dolores hic ad aliquam explicabo cupiditate amet earum quidem eius minus sequi!</p>
+	
 		<hgroup>
 			<h1>H1 Heading </h1>
 			<h2>h2 Heading</h2>
@@ -49,6 +52,6 @@
 			<a href="http://google.com">Link to google</a>
 			<a href="http://google.com">Link to google</a>
 		 </div>
-	</div>
+	</article>
 </template>
 
