@@ -52,6 +52,40 @@
 			<a href="http://google.com">Link to google</a>
 			<a href="http://google.com">Link to google</a>
 		 </div>
+
+		<ol class='timeline'>
+			<li class='workouts'>Day 1 example
+				<h5>Workout numbers / workout total time </h5>
+				<figure class="card">
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 1 title">
+					<figcaption>Workout 1 title</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 2 title">
+					<figcaption>Workout 2 title</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 3 title">
+					<figcaption>Workout 3 title</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 4 title">
+					<figcaption>Workout 4 title</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 5 title">
+					<figcaption>Workout 5 title</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 6 title">
+					<figcaption>Workout 6 title</figcaption>
+				</figure>
+			</li>
+
+			<li>Day 1 example</li>
+			<li>Day 1 example</li>
+		</ol>
+		
 	</article>
 </template>
 

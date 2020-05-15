@@ -119,6 +119,62 @@ ol {
 		}
 	}
 }
+.timeline {
+	li::before {
+		content: counter(li) ;
+	}
+}
+/*
+.timeline{
+	border: 2px solid pink;
+	list-style: none;
+	counter-reset: li;  //The number should be the li element
+	li {
+		position: relative;
+		margin: 0.6em;
+		line-height: 1.6em;
+		list-style-type: none;
+		h5 {
+			border-bottom: 2px solid black;
+			text-align: right;
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 100%;
+		}
+		
+		&::before { //Bullet points
+			position: absolute;
+			left: -1.0em;          // Adjust location bullet 
+			color: pink;
+			font-size: 1.6em;      // Adjust size of bullet 
+			content: '●';
+		}
+		&::after { // line
+			position: absolute;
+			background-color: lightgray;
+			bottom: 0;
+			content: " ";
+			left: -13px;
+			// margin-left: -1.5px;
+			top: 0;
+			width: 2px;
+		}
+	}
+}
 
+*/
+.workouts{
+	background-color: lightpink;
+	border-left: 2px solid black;
+	padding: 10px;
+}
+.card{
+	outline: 2px solid lightblue;
+	display: inline-block;
+	margin: 20px;
+	height: 125px;
+	max-width: 100%
+}
 
 
