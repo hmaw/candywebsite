@@ -7,6 +7,7 @@ html {
 } 
 body{
 	margin: 0;
+	color: $charcoal;
 }
 @media only screen and (max-width: 720px) {
 	body {
@@ -119,56 +120,6 @@ ol {
 		}
 	}
 }
-.timeline {
-	li::before {
-		content: counter(li) ;
-	}
-}
-/*
-.timeline{
-	border: 2px solid pink;
-	list-style: none;
-	counter-reset: li;  //The number should be the li element
-	li {
-		position: relative;
-		margin: 0.6em;
-		line-height: 1.6em;
-		list-style-type: none;
-		h5 {
-			border-bottom: 2px solid black;
-			text-align: right;
-			position: absolute;
-			top: 0;
-			right: 0;
-			width: 100%;
-		}
-		
-		&::before { //Bullet points
-			position: absolute;
-			left: -1.0em;          // Adjust location bullet 
-			color: pink;
-			font-size: 1.6em;      // Adjust size of bullet 
-			content: '●';
-		}
-		&::after { // line
-			position: absolute;
-			background-color: lightgray;
-			bottom: 0;
-			content: " ";
-			left: -13px;
-			// margin-left: -1.5px;
-			top: 0;
-			width: 2px;
-		}
-	}
-}
-
-*/
-.workouts{
-	background-color: lightpink;
-	border-left: 2px solid black;
-	padding: 10px;
-}
 .card{
 	outline: 2px solid lightblue;
 	display: inline-block;
@@ -176,5 +127,48 @@ ol {
 	height: 125px;
 	max-width: 100%
 }
+.timeline {
+	border-left: 2px solid black;
+	margin-left: 50px;
+	padding-left: 0;
+	
+	li{
+		padding: 20px 10px 10px 10px;
+		margin-left: 0;
+		// background-color: pink;
+	}
+	li::before {
+		content: counter(li) ;
+		color: $charcoal;
+		margin-left: 15px;
+		font-size: 1.0em;
+		font-weight: normal;
+		left: 15px;
+		top: 10px;
+	}
+	li::after { //Bullet points
+		position: absolute;
+		left: -7px;         // Adjust location bullet
+		top: 9px; 
+		color: $purple;
+		font-size: 1.6em;      // Adjust size of bullet 
+		content: '●';
+	}
+	.calcDay{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		text-transform: uppercase;
+	}
+	.calcTime{
+		position: absolute;
+		top: 10px;
+		right: 20px;
+	}
+
+
+}
+
+
 
 

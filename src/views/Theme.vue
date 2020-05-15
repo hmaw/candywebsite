@@ -54,8 +54,9 @@
 		 </div>
 
 		<ol class='timeline'>
-			<li class='workouts'>Day 1 example
-				<h5>Workout numbers / workout total time </h5>
+			<li>
+				<span class="calcDay">Day</span>
+				<span class="calcTime">0 numbers / 0 workout total time</span>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 1 title">
 					<figcaption>Workout 1 title</figcaption>
@@ -82,8 +83,17 @@
 				</figure>
 			</li>
 
-			<li>Day 1 example</li>
-			<li>Day 1 example</li>
+			<li>
+				<span class="calcDay">Day</span>
+				<span class="calcTime">0 numbers / 0 workout total time</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor omnis quia hic officiis sunt commodi, harum repellendus numquam asperiores in quam, unde laboriosam, ut neque voluptate placeat animi delectus. </p>
+			</li>
+
+			<li>
+				<span class="calcDay">Day</span>
+				<span class="calcTime">0 numbers / 0 workout total time</span>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sint inventore eum eos rem similique ut qui? In nemo suscipit rem iusto explicabo voluptatem soluta, illo, maxime, ducimus quia quas. </p>
+			</li>
 		</ol>
 		
 	</article>
