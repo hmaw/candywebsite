@@ -109,11 +109,11 @@ ol {
 			color: $purple;
 			position: absolute;
 			display: inline-block; 
-			font-size: 2em;      /* Adjust size of number */
+			font-size: 1.5em;      /* Adjust size of number */
 			font-weight: bold;
 			width: 1em; 
-			margin-left: -1.25em;
-			// margin-right: 0.5em; 
+			left: -30px;
+			top: 0;
 			text-align: right; 
 			direction: rtl;
 			content: counter(li);
@@ -123,47 +123,49 @@ ol {
 .card{
 	outline: 2px solid lightblue;
 	display: inline-block;
-	margin: 20px;
+	margin: 20px 20px 20px 0px;
 	height: 125px;
 	max-width: 100%
 }
 .timeline {
-	border-left: 2px solid black;
+	border-left: 1px solid $purple;
 	margin-left: 50px;
 	padding-left: 0;
 	
 	li{
-		padding: 20px 10px 10px 10px;
+		padding: 0px 10px 10px 40px;
 		margin-left: 0;
-		// background-color: pink;
 	}
 	li::before {
 		content: counter(li) ;
+		text-align: left; 
+		direction: ltr;
 		color: $charcoal;
-		margin-left: 15px;
 		font-size: 1.0em;
 		font-weight: normal;
-		left: 15px;
+		left: 50px;
 		top: 10px;
 	}
-	li::after { //Bullet points
-		position: absolute;
-		left: -7px;         // Adjust location bullet
-		top: 9px; 
-		color: $purple;
-		font-size: 1.6em;      // Adjust size of bullet 
-		content: '●';
+
+	.calcInfo{
+		text-align: right;
+		border-bottom: 1px solid lightgray;
+		font-size: 0.6em;
+		&::after { //Bullet points
+			position: absolute;
+			left: -7px;         // Adjust location bullet
+			top: -7px; 
+			color: $purple;
+			font-size: 1.6em;      // Adjust size of bullet 
+			content: '●';
+		}
 	}
 	.calcDay{
-		position: absolute;
-		top: 10px;
-		left: 10px;
+		outline: 2px solid pink;
 		text-transform: uppercase;
 	}
 	.calcTime{
-		position: absolute;
-		top: 10px;
-		right: 20px;
+		outline: 2px solid orange;
 	}
 
 

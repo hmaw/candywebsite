@@ -53,10 +53,12 @@
 			<a href="http://google.com">Link to google</a>
 		 </div>
 
-		<ol class='timeline'>
+		<ol class='timeline' start="99">
 			<li>
-				<span class="calcDay">Day</span>
-				<span class="calcTime">0 numbers / 0 workout total time</span>
+				<header class='calcInfo'>
+					<span class="calcDay">Day</span>
+					<span class="calcTime">0 numbers / 0 workout total time</span>
+				</header>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 1 title">
 					<figcaption>Workout 1 title</figcaption>
@@ -84,14 +86,18 @@
 			</li>
 
 			<li>
-				<span class="calcDay">Day</span>
-				<span class="calcTime">0 numbers / 0 workout total time</span>
+				<header class='calcInfo'>
+					<span class="calcDay">Day</span>
+					<span class="calcTime">0 numbers / 0 workout total time</span>
+				</header>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor omnis quia hic officiis sunt commodi, harum repellendus numquam asperiores in quam, unde laboriosam, ut neque voluptate placeat animi delectus. </p>
 			</li>
 
 			<li>
-				<span class="calcDay">Day</span>
-				<span class="calcTime">0 numbers / 0 workout total time</span>
+				<header class='calcInfo'>
+					<span class="calcDay">Day</span>
+					<span class="calcTime">0 numbers / 0 workout total time</span>
+				</header>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sint inventore eum eos rem similique ut qui? In nemo suscipit rem iusto explicabo voluptatem soluta, illo, maxime, ducimus quia quas. </p>
 			</li>
 		</ol>
