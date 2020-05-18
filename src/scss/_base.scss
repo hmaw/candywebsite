@@ -121,7 +121,6 @@ ol {
 	}
 }
 .card{
-	outline: 2px solid lightblue;
 	display: inline-block;
 	margin: 20px 20px 20px 0px;
 	height: 125px;
@@ -141,36 +140,43 @@ ol {
 		text-align: left; 
 		direction: ltr;
 		color: $charcoal;
-		font-size: 1.0em;
+		font-size: 8px;
 		font-weight: normal;
-		left: 50px;
-		top: 10px;
+		left: 57px;
+		top: 0;
 	}
 
 	.calcInfo{
+		position: relative;
 		text-align: right;
 		border-bottom: 1px solid lightgray;
-		font-size: 0.6em;
+		font-size: 8px;
+		padding-bottom: 6px;
 		&::after { //Bullet points
 			position: absolute;
-			left: -7px;         // Adjust location bullet
-			top: -7px; 
+			left: -46px;         // Adjust location bullet
+			top: -6px; 
 			color: $purple;
-			font-size: 1.6em;      // Adjust size of bullet 
+			font-size: 2.2em;      // Adjust size of bullet 
 			content: '●';
 		}
 	}
 	.calcDay{
-		outline: 2px solid pink;
+		// outline: 2px solid pink;
+		position: absolute;
+		top: 0;
+		left: 0;
 		text-transform: uppercase;
 	}
 	.calcTime{
-		outline: 2px solid orange;
+		// outline: 2px solid orange;
 	}
-
-
 }
 
+figcaption{
+	font-size: 0.6em;
+	color: $black;
+}
 
 
 

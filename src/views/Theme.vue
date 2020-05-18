@@ -60,28 +60,28 @@
 					<span class="calcTime">0 numbers / 0 workout total time</span>
 				</header>
 				<figure class="card">
-					<img src="http://placekitten.com/g/125/125/" alt="Workout 1 title">
-					<figcaption>Workout 1 title</figcaption>
+					<img src="http://placekitten.com/g/125/125/" alt="Workout 1 title" border='none'>
+					<figcaption>EP1: Workout 1 title YEY!</figcaption>
 				</figure>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 2 title">
-					<figcaption>Workout 2 title</figcaption>
+					<figcaption>EP2: Workout 2 title Off!</figcaption>
 				</figure>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 3 title">
-					<figcaption>Workout 3 title</figcaption>
+					<figcaption>EP3:Workout 3 title OUCH!</figcaption>
 				</figure>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 4 title">
-					<figcaption>Workout 4 title</figcaption>
+					<figcaption>EP4: Workout 4 title UGH!</figcaption>
 				</figure>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 5 title">
-					<figcaption>Workout 5 title</figcaption>
+					<figcaption>EP5: Workout 5 title PAIN! </figcaption>
 				</figure>
 				<figure class="card">
 					<img src="http://placekitten.com/g/125/125/" alt="Workout 6 title">
-					<figcaption>Workout 6 title</figcaption>
+					<figcaption>EP6: Workout 6 title PRIDE!</figcaption>
 				</figure>
 			</li>
 
